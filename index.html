@@ -1,43 +1,33 @@
-<html>
-	<head>
-        <link rel="stylesheet" href="style.css">
-		<title>Isaac Sena</title>
-	</head>
-	<body>
-		<div id="profile">
-			<img
-				src="https://avatars.githubusercontent.com/u/72372083?v=4"
-				alt="profile"
-				id="profile-pic"
-			/>
-			<h2 id="profile-name">Isaac Sena</h2>
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header class="hero">
+        <div class="profile-container">
+            <img src="https://avatars.githubusercontent.com/u/72372083?v=4" alt="Foto de Perfil" class="profile-img">
+            <h1>Isaac Sena</h1>
+            <p>Desenvolvedor backend focado no desenvolvimento Mobile com Flutter</p>
+        </div>
+        <div class="social-links">
+            <a href="https://github.com/zaksenards" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+        </div>
+    </header>
 
-			<div id="media-links">
-				<a href="https://github.com/zaksenards" id="profile-link">
-					<img
-						src="https://img.icons8.com/?size=100&id=12598&format=png&color=000000"
-						alt="github"
-						id="social-icon"
-					/>
-				</a>
+    <section class="projects" id="projects-section">
+        <h2>Meus Projetos</h2>
+        <div class="projects-container" id="projects-container">
+            <!-- Os projetos serão adicionados dinamicamente aqui -->
+        </div>
+    </section>
 
-				<a href="https://instagram.com/zaksenards" id="profile-link">
-					<img
-						src="https://img.icons8.com/?size=100&id=32292&format=png&color=000000"
-						alt="instagram"
-						id="social-icon"
-					/>
-				</a>
-
-				<a href="https://tiktok.com/senards" id="profile-link">
-					<img
-						src="https://img.icons8.com/?size=100&id=84521&format=png&color=000000"
-						alt="tiktok"
-						id="social-icon"
-					/>
-				</a>
-			</div>
-		</div>
-		<p id="about">Um apaixonado por programação e games</p>
-	</body>
+    <script src="script.js"></script>
+</body>
 </html>
